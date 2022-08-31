@@ -1,0 +1,18 @@
+{
+  "name": "testing-uploadingtoazure-from-github",
+  "version": "1.0.0",
+  "description": "A simple testing on deplying on azure from github repo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "Availablecoder",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
