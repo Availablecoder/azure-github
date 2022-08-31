@@ -7,7 +7,9 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader("Content-Type", "text/plain");
   res.end(
-    `We Changed Some things ${process.env.MY_WAR || "unable to see MY_WAR"}`
+    `We Changed Some From github after changing from azure things ${
+      process.env.MY_WAR || "unable to see MY_WAR"
+    }`
   );
 });
 
